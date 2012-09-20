@@ -1,0 +1,20 @@
+name: GodHealer
+main: com.ikkerens.godhealer.Main
+version: 1.0
+description: Enables godmode & healing
+author: Ikkerens
+commands:
+   godmode:
+      description: Forces a recheck
+      aliases: [god, nopvp]
+      usage: |
+              /<command> [target]
+   heal:
+      description: Heals
+      usage: |
+              /<command> [target]
+   ignite:
+      description: Ignites players
+      aliases: [flame, burn]
+      usage: |
+              /<command> [target]
